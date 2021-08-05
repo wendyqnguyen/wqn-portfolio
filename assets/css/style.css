@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* <header> style start */
+  header {
+    padding: 20px 35px;
+    background-color: #696969;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #696969;
+    margin: 0;
+    display: inline;
+    background-color: #add8e6;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #add8e6;
+    border-bottom: 3px solid #add8e6;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  
+  .name header h1{
+      color: #696969;
+  }
+
+  /* <header> style end */
+  
+  /* <footer> style start */
+  footer {
+    background: #696969;
+    width: 100%;
+    padding: 40px 35px;
+    color: #add8e6;
+  }
+  
+  footer h2 {
+    display: inline;
+    /* color: #add8e6; */
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  section {
+    padding: 60px;
+  }
+  
+  div {
+      display: block;
+  }
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  /* Hero style start */
+  .hero {
+    background-image: url('../images/hero-bg.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: flex-start;
+  }
+  
+  .hero-subtitle {
+}
+
+  /* Hero style end */
+  
+  /* About Me style start */
+.about {
+  overflow: auto;
+
+}
+
+.about-me div{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 0 auto 30px auto; */
+    color: #696969;
+    /* text-align: left; */
+}
+
+.bio {
+
+}
+  
+  /* About Me style end */
+  
+
+  /* Work style start */
+.work {
+
+}
+
+.work h3 {
+
+}
+.apps-container {
+
+}
+
+.main-app {
+
+}
+
+.secondary-app-grid {
+
+}
+
+.secondary-app{
+
+}
+
+  /* Work style end */
+
+
+  /* Contact Me style start */
+.contact {
+
+}
+
+.contact-info {
+
+}
+
+.email {
+
+}
+
+.github {
+
+}
+
+.twitter {
+
+}
+
+.spotify {
+
+}
+
+/* Contact Me style end */
+  
+  .section-title {
+      text-align: right;
+      border-right: 3px solid #696969;
+      padding-right: 10px;
+      color: #696969;
+  }
+
+  .subtitle {
+
+  }
