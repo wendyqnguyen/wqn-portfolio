@@ -111,9 +111,7 @@
     width: 600px;
     display: inline-block;
     vertical-align: top;
-    /* margin: 0 auto 30px auto; */
     color: #696969;
-    /* text-align: left; */
 }
 
 .bio {
@@ -124,8 +122,11 @@
   
 
   /* Work style start */
-.work {
-
+.work div{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    color: #696969;
 }
 
 .work h3 {
@@ -151,7 +152,11 @@
 
 
   /* Contact Me style start */
-.contact {
+.contact div {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    color: #696969;
 
 }
 
@@ -179,9 +184,9 @@
   
   .section-title {
       text-align: right;
-      border-right: 3px solid #696969;
+      border-right: 3px solid #6082b6;
       padding-right: 10px;
-      color: #696969;
+      color: #6082b6;
   }
 
   .subtitle {
