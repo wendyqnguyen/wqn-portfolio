@@ -76,12 +76,14 @@
   }
 
   section {
+    justify-items: center;
     padding: 60px;
   }
   
   div {
-      display: block;
+      /* display: block; */
   }
+
 .text-left {
     text-align: left;
   }
@@ -96,7 +98,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    width: 100%;
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
@@ -111,6 +113,10 @@
 .about {
   display: flex;
   width: 100%;
+}
+
+.about .section-title {
+  width: 30%;
 }
 
 .about div{
@@ -130,16 +136,22 @@
 
   /* Work style start */
 .work {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
 }
 
 .work div{
+  display: flex;
   color: #696969;
 }
 
-.sample-work-section{
+/* .sample-work-section{
   display: flex;
+} */
+.work .section-title {
+  display: flex;
+  width: 30%;
+  height: 600px;
 }
 
 .work h2 {
@@ -149,30 +161,43 @@
 .apps-container {
   padding-left: 20px;
   display: flex;
-  flex-wrap: wrap;
-  /* width: 100%; */
+  flex-direction: column;
+  width: 800px;
+  height: 600px;
 }
 
 .surf-report-sample-app{
   display: flex;
-  flex-grow: 2;
+  flex-grow: .5;
+  border: 3px solid #6082b6;
 }
 
 .second-sample-apps-row{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-grow: .5;
 }
 
 .third-sample-apps-row{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-grow: .5;
+}
+
+.sample-project {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border: 3px solid #6082b6;
 }
 
 .app-info {
-  display: flex;
-  align-items: flex-end;
+  margin-top: 110px;
+  background-color: #6082b6;
+  height: 50px;
 }
   /* Work style end */
 
@@ -182,6 +207,10 @@
 .contact {
   width: 100%;
   display: flex;
+}
+
+.contact .section-title {
+  width: 30%;
 }
 
 .contact div {
@@ -206,22 +235,6 @@
   text-decoration-thickness: 3px;
 }
 
-.email {
-
-}
-
-.github {
-
-}
-
-.twitter {
-
-}
-
-.spotify {
-
-}
-
 /* Contact Me style end */
   
   .section-title {
@@ -229,8 +242,10 @@
     padding-right: 20px;
     border-right: 3px solid #6082b6;
     text-align: right;
+    justify-content: stretch;
     padding: 20px;
-    /* height: 100%; */
+    width: 30%;
+    align-items: flex-start;
   }
 
   .section-title h2 {
