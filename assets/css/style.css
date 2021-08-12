@@ -15,12 +15,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
     z-index: 9999;
   }
   
@@ -32,7 +29,7 @@
 
   header a {
     text-decoration: none;
-    color: #696969;
+    color: #add8e6;
     border-bottom: 3px solid #add8e6;
   }
   
@@ -68,7 +65,6 @@
   
   footer h2 {
     display: inline;
-    /* color: #add8e6; */
     font-size: 30px;
     margin: 0;
   }
@@ -100,7 +96,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
@@ -114,20 +110,11 @@
   /* About Me style start */
 .about {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
-/* .about-me { */
-  /* margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
-  display: flex; */
-  /* flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-} */
-
 .about div{
+  padding-left: 20px;
   height: 100%;
   width: 600px;
   display:inline-block;
@@ -136,49 +123,57 @@
 }
 
 .about, .section-title{
-  height: 100px;
+  height: 100%;
 }
   /* About Me style end */
   
 
   /* Work style start */
 .work {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
 }
 
 .work div{
-  height: 200px;
-  width: 600px;
-  display: flex;
-  /* vertical-align: top; */
   color: #696969;
 }
 
-.work h3 {
+.sample-work-section{
+  display: flex;
+}
+
+.work h2 {
+  flex: 1;
 
 }
 .apps-container {
+  padding-left: 20px;
   display: flex;
   flex-wrap: wrap;
+  /* width: 100%; */
 }
 
-.main-app {
-
+.surf-report-sample-app{
+  display: flex;
+  flex-grow: 2;
 }
 
-.secondary-app-grid {
+.second-sample-apps-row{
   display: flex;
   flex-wrap: wrap;
-
+  flex-direction: column;
 }
 
-.secondary-app{
-
+.third-sample-apps-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
+.app-info {
+  display: flex;
+  align-items: flex-end;
+}
   /* Work style end */
 
 
@@ -186,19 +181,29 @@
 
 .contact {
   width: 100%;
+  display: flex;
 }
 
 .contact div {
   width: 600px;
-  display: flex;
-  flex-wrap: wrap;
   vertical-align: top;
   color: #696969;
 
 }
 
 .contact-info {
-
+  padding-left: 20px;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #6082b6;
+  text-decoration-thickness: 3px;
 }
 
 .email {
@@ -220,10 +225,16 @@
 /* Contact Me style end */
   
   .section-title {
-    text-align: right;
     border-right: 3px solid #6082b6;
-    padding-right: 10px;
-    color: #6082b6;
+    padding-right: 20px;
+    border-right: 3px solid #6082b6;
+    text-align: right;
+    padding: 20px;
+    /* height: 100%; */
+  }
+
+  .section-title h2 {
+    line-height: 1.5;
   }
 
   .text-right {
