@@ -11,7 +11,7 @@
   /* <header> style start */
   header {
     padding: 20px 35px;
-    background-color: #696969;
+    background-color: #31343c;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,18 +21,19 @@
     z-index: 9999;
   }
   
-  header a { text-decoration: none; }
+  /* header a { text-decoration: none; } */
+
   header h1 {
     font-weight: bold;
-    font-size: 36px;
-    color: #696969;
+    font-size: 49px;
+    color: #48577e;
   }
 
   header a {
     text-decoration: none;
-    color: #add8e6;
+    color: #31343c;
     padding: 10px;
-    border-bottom: 3px solid #add8e6;
+    border-bottom: 3px solid #96c7ca;
   }
   
   header nav {
@@ -47,16 +48,20 @@
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 22px;
-    color: #c5ced1;
+    font-size: 25px;
+    color: #96c7ca;
   }
   
-  .name header h1{
-      color: #696969;
+  .name {
+    display: flex;
+    background-color: #96c7ca;
   }
-
+/*   
+  .name a {
+    justify-content: flex-start;
+  } */
   .name img {
-    border: 3px solid #add8e6;
+    border: 3px solid #96c7ca;
     border-radius: 10px;
   }
 
@@ -64,10 +69,10 @@
   
   /* <footer> style start */
   footer {
-    background: #696969;
+    background: #48577e;
     width: 100%;
     padding: 40px 35px;
-    color: #add8e6;
+    color: #96c7ca;
   }
   
   footer h2 {
@@ -104,15 +109,19 @@
     background-image: url('../images/bg.jpeg');
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    align-items: flex-start;
+    align-con
     background-attachment: fixed;
     background-position: 80%;
   }
   
-  .welcome-message {
-    color: #696969;
+  .page-subtitle {
+    display: flex;
+    font-size: 40px;
+    color: #31343c;
+    background-color: #96c7ca;
+    height: 70px;
 }
 
   /* Hero style end */
@@ -134,7 +143,7 @@
   width: 600px;
   display:inline-block;
   vertical-align: top;
-  color: #696969;
+  color: #48577e;
 }
 
 .about, .section-title{
@@ -151,7 +160,7 @@
 
 .work div{
   display: flex;
-  color: #696969;
+  color: #48577e;
 }
 
 .work .section-title {
@@ -175,7 +184,7 @@
 .surf-report-sample-app{
   display: flex;
   flex-grow: .5;
-  border: 3px solid #add8e6;
+  border: 3px solid #96c7ca;
 }
 
 .surf-report-sample-app:hover {
@@ -201,7 +210,7 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  border: 3px solid #add8e6;
+  border: 3px solid #96c7ca;
 }
 
 .sample-project:hover {
@@ -210,7 +219,7 @@
 
 .app-info {
   margin-top: 110px;
-  background-color: #add8e6;
+  background-color: #96c7ca;
   height: 50px;
 }
   /* Work style end */
@@ -244,15 +253,15 @@
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-color: #add8e6;
+  text-decoration-color: #96c7ca;
   text-decoration-thickness: 3px;
-  color: #696969;
+  color: #48577e;
 }
 
 /* Contact Me style end */
   
   .section-title {
-    border-right: 3px solid #add8e6;
+    border-right: 3px solid #96c7ca;
     padding-right: 20px;
     text-align: right;
     justify-content: stretch;
@@ -263,7 +272,7 @@
 
   .section-title h2 {
     line-height: 1.5;
-    color: #696969;
+    color: #48577e;
   }
 
   .text-right {
