@@ -20,5 +20,6 @@ This application is currently deployed on GitHub.
 
 ## Contribution
 - Wendy Nguyen - [@linkedln](https://www.linkedin.com/in/wenguyen/)
+- Martin Adams - https://unsplash.com/@martinadams
 
 ### ©️2021 Wendy Nguyen 
